@@ -428,7 +428,7 @@ class API(object):
 		self.doReceiveBulk(_gifts)
 		self.doInit()
 		if False:
-			klab=Klab('fgthequest@gmail.com','hallo123')
+			klab=Klab('mail@gmail.com','password')
 			self.setIV()
 			_link=self.doLinkWithKlabId(self.genX_vector(klab.giveMeToken()))
 			self.setIV()
